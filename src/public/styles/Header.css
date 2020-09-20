@@ -1,0 +1,49 @@
+.Header{
+    display: flex;
+    width: 100vw;
+    height: 2.5em;
+    flex-direction: row;
+    background-color: #fff;
+    justify-content: space-between;
+    justify-self: center;
+    align-items: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
+    padding: 0 1em 0 1em;
+}
+
+.options{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+.options a{
+    padding: .3em .8em;
+    margin: 0 .5em;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    color: rgb(128, 128, 128);
+}
+.options a:hover{
+    background: rgb(108,182,255);
+    background: linear-gradient(148deg, rgba(108,182,255,1) 0%, rgba(120,132,255,1) 100%);
+    color: #fff;
+}
+
+.Header .user{
+    display: flex;
+    align-items: center;
+}
+
+.Header .profile{
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+.Header i{
+    color: #808080;
+    align-items: center;
+}

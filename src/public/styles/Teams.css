@@ -1,0 +1,33 @@
+.teams{
+    /* grid-area: teams; */
+    width: 40%;
+    margin: 1em;
+    padding: 0 1em 1em 6em;
+  }
+  .teams a{
+    display: block;
+    width: 60%;
+    margin: 1em 0;
+    text-decoration: none;
+    color: #6d6d6d;
+  }
+  .teams a:hover{
+    color: #333333;
+  }
+  .teams .addTeams{
+    display: flex;
+    border: 1px solid #dddddd;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+  }
+  .teams .primary-btn{
+    color: #6bb4ff;
+    font-weight: normal;
+    text-align: center;
+    /* border: 1px solid #dddddd; */
+    margin: .2em .01em;
+  }
+  .teams .primary-btn:hover{
+    color: #3395f8;
+  }
