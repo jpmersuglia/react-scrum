@@ -28,8 +28,10 @@
   display: flex;
   justify-content: space-between;
   margin: 0 1.5em;
+  /* padding-bottom: 1em; */
   height: 3em;
   align-items: center;
+  border-bottom: 1px solid rgb(223, 223, 223);
 }
 .modalheadertitle{
   margin: 0;

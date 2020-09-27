@@ -2,7 +2,7 @@
     /* grid-area: team-content; */
     flex-direction: flex;
     width: 60%;
-    border-top: 1px solid rgb(223, 223, 223) ;
+    /* border-top: 1px solid rgb(223, 223, 223) ; */
   }
   
   .team-content .main-team-header{
@@ -13,8 +13,12 @@
     font-size: 13px;
     padding: 1em 1em;
   }
-  .main-team-header h2{
-    font-size: 15px;
+  .main-team-header input{
+    font-size: 2em;
+    padding: .2em .5em;
+    border-radius: .2em;
+    border: 1px solid #868686;
+    color: #868686;
   }
   .main-team-header a{
     text-decoration: none;
@@ -53,15 +57,15 @@
   
   .persons-selection {
     height: 100%;
-    overflow-y: scroll;
+    overflow: auto;
   }
-  .persons-selection .person{
+  .persons-selection .person-chk{
     align-items: center;
     display: flex;
     justify-content: space-between;
     font-weight: 100;
     font-size: 13px;
-    padding: .8em .2em;
+    padding: .8em 1em;
     margin: .1em;
     border: 1px solid #dddddd;
     border-radius: 5px;
@@ -76,3 +80,7 @@
     background-color: rgb(43, 255, 0);
     border-radius: 50%;
   }
+
+  /* .person .input :checked{
+    font-weight: bold;
+  } */

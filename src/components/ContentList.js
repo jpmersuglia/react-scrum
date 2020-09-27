@@ -6,7 +6,7 @@ function ContentList(props) {
     return (
         <div className="team-content">
             <div className="main-team-header">
-                <h2>{props.teamname}</h2>
+            <input type="text" id="tname" name="fname" value={props.teamname}/>
                 <a href="index.html">Delete Team</a>
             </div>
             <div className="main-team-members">
@@ -19,9 +19,7 @@ function ContentList(props) {
                     <a href="/index.html">Add Member</a>
                 </div>
             </div>
-            <TeamMembers 
-                personname = "Stephen Hodges"
-            />
+            <TeamMembers />
         </div>
     )
 }

@@ -10,12 +10,7 @@ function Teams() {
                 <i className="fa fa-plus" />
                 <a href="/index.html" className="primary-btn">Add Team</a>
             </div>
-            <TeamList 
-                name = "Front-End Development"
-            />
-            <TeamList 
-                name = "UI/UX Development"
-            />
+            <TeamList />
         </div>
     )
 }

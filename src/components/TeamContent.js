@@ -3,6 +3,7 @@ import React from 'react'
 import ContentList from './ContentList'
 import '../public/styles/TeamContent.css'
 
+
 function TeamContent() {
     return (
         <ContentList 
